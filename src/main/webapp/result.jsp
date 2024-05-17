@@ -1,17 +1,16 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>result.jsp</title>
 </head>
 <body>
-<h3>
-filename : ${filename }<br/>
-saveFilename : ${saveFilename }
-</h3>
+	filename : ${filename}<br>
+	saveFilename : ${saveFilename}
+	<img src="upload/${saveFilename}"/>
 </body>
 </html>
